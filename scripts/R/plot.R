@@ -1,3 +1,9 @@
+# Se o pacote não tiver instalado na máquina.
+#install.packages('ggplot2', repos = "http://cran.us.r-project.org")
+
 library('ggplot2')
-data = read.table('sort.data', header = T)
+
+args <- commandArgs(trailingOnly=TRUE)
+
+data = read.table(args[1], header = T)
 ggplot(data, aes(x = sample, y = time, colour = alg)) + geom_line()

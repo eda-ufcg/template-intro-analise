@@ -8,6 +8,8 @@ public class Exemplo {
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String line = "";
+            // Cabeçalho
+            System.out.println("alg time sample");
             while ((line = reader.readLine()) != null) {
                 String[] tokens = line.split(" ");
                

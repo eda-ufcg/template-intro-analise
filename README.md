@@ -8,6 +8,7 @@ Redirecionando a saída de um programa java para um arquivo:
     
     java MeuPrograma > saida.txt
 
-Executando o script de plot (a saída vai ser gerada no mesmo diretório). Este arquivo lê um outro arquivo chamado sort.data que deve estar no mesmo diretório.
+Executando o script de plot (a saída vai ser gerada no mesmo diretório). Depois do arquivo .R,
+você deve passar o caminho para a saída do seu programa, como no exemplo:
     
-    RScript plot.R
+    RScript plot.R ../../data/sort.data
