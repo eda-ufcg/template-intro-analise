@@ -11,4 +11,5 @@ Redirecionando a saída de um programa java para um arquivo:
 Executando o script de plot (a saída vai ser gerada no mesmo diretório). Depois do arquivo .R,
 você deve passar a flag --vanilla e o caminho para a saída do seu programa deve ser o ultimo argumento, como no exemplo:
     
-    R < plot.R --vanilla ../../data/sort.data
+
+    R < caminho/p/plot.R --vanilla caminho/p/sort.data
