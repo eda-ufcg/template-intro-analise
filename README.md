@@ -9,6 +9,6 @@ Redirecionando a saída de um programa java para um arquivo:
     java MeuPrograma > saida.txt
 
 Executando o script de plot (a saída vai ser gerada no mesmo diretório). Depois do arquivo .R,
-você deve passar o caminho para a saída do seu programa, como no exemplo:
+você deve passar a flag --vanilla e o caminho para a saída do seu programa deve ser o ultimo argumento, como no exemplo:
     
-    RScript plot.R ../../data/sort.data
+    R < plot.R --vanilla ../../data/sort.data
