@@ -1,3 +1,12 @@
+# Roteiro aula
+
+* Discutir sobre experimentação
+  * entrada -> execução -> perfilamento -> saída -> análise
+  * Como gerar entrada? Que entradas são importantantes para nosso problema?
+  * Como perfilar?
+  * Como formatar a saída para análise?
+  
+
 # template-intro-analise
 
 Executando seu programa passando o conteúdo de um arquivo pela entrada padrão:
